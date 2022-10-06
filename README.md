@@ -1,11 +1,12 @@
-BetrimPanel (Beta) - Minecraft Hosting Windows Server/Open Server
+BetrimPanel (Beta) - Панель управления игровым сервером Windows Server/Open Server
 
 -------------
 
-* Русский перевод - Хостинг Minecraft Windows Server/Open Server
+* Русский перевод - Панель управления игровым сервером Minecraft Windows Server/Open Server
 
 Эта панель управления игровым сервером подходит для Windows Server 
-Или OpenServer  панель находится в разработке,  так что могут присутствовать недоработки ошибки или баги
+Или OpenServer панель находится в разработке,                                                                                                                    
+Так что могут присутствовать недоработки ошибки или баги
 
 -------------
 
@@ -16,6 +17,3 @@ BetrimPanel (Beta) - Minecraft Hosting Windows Server/Open Server
 - [ ] FTP Server находится в стадий разработки
 - [ ] Поддержка 12 языковых покетов
 - [ ] Авто обновления консоли находится в стадий разработки
-
-Мы ещё не определились хостинг будет позиционироваться                                                                                                               
-Как одиночный или как публичный
