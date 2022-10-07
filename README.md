@@ -10,7 +10,7 @@ BetrimPanel (Beta) - Панель управления игровым серве
 
 -------------
 
-![Screenshot_1](https://user-images.githubusercontent.com/79506370/194215139-446fe9fd-cb44-47b4-8c26-74aaf8861f35.png)
+![image](https://user-images.githubusercontent.com/79506370/194555460-7ba26b86-d700-4df8-9817-e7fd29a6d99e.png)
 
 - [x] Логи сервера
 - [ ] Расширения для браузера для управления сервером
