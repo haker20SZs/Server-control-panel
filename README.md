@@ -12,6 +12,12 @@ BetrimPanel (Beta) - Панель управления игровым серве
 
 ![image](https://user-images.githubusercontent.com/79506370/194555460-7ba26b86-d700-4df8-9817-e7fd29a6d99e.png)
 
+-------------
+
+![image](https://user-images.githubusercontent.com/79506370/195120959-4466b4dc-d429-4dad-88d4-0fa944e01a5a.png)
+
+-------------
+
 - [x] Логи сервера
 - [ ] Расширения для браузера для управления сервером
 - [ ] FTP Server находится в стадий разработки
