@@ -1,1 +1,0 @@
-tar -cvf /home/backup/backup.tar /home/srv1/
