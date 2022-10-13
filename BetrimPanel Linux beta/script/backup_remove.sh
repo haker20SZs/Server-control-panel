@@ -1,1 +1,0 @@
-rm /home/backup/backup.tar
