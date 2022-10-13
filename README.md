@@ -13,12 +13,12 @@ Windows панель - Предназначена для создания сер
 Windows - Фото панели управления,
 -------------
 
-![image](https://user-images.githubusercontent.com/79506370/195486822-aac185f0-5040-4117-9081-f9f2dab742fc.png)
+![image](https://user-images.githubusercontent.com/79506370/195553172-82b34d78-0494-4ba9-ade0-e6272c7291b1.png)
 
 Linux - Фото панели управления,
 -------------
 
-![image](https://user-images.githubusercontent.com/79506370/195487032-1956d469-17e7-4526-8db1-43adb0dde445.png)
+![image](https://user-images.githubusercontent.com/79506370/195553105-3724fe25-fbeb-47a2-9ea1-3141912066a8.png)
 
 -------------
 
