@@ -12,6 +12,8 @@ Windows панель - Предназначена для создания сер
 
 -------------
 
+Windows - Фото панели управления,
+
 ![image](https://user-images.githubusercontent.com/79506370/195486822-aac185f0-5040-4117-9081-f9f2dab742fc.png)
 
 -------------
