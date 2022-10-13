@@ -33,17 +33,15 @@ Linux - Фото панели управления,
 В скором времени будет присутствовать лицензия и правила которые вы будете                                                   
 Обязанный прочитать и не нарушат        
 
-Данная панель не позиционирует себя как хостинг
+Данная панель не позиционирует себя как хостинг                                           
+
+Так же просьба ознакомиться если вы будете продавать панель - [Статья 146 Уголовного кодекса РФ.pdf](https://github.com/haker20SZs/Server-control-panel/files/9770118/146.pdf)
+-------------
+![lhx0qXZ37mie5Tx9a4MvxXkXPMa0YXLETAtFpDgduuwc_OSJE7QPXx482U62OSF3_UrL2eCFMOe2b4UBSWfk-17i](https://user-images.githubusercontent.com/79506370/195536448-ee17a3b7-d26c-4df9-9999-93572e482eba.jpg)
+-------------
 
 Поддержка автора:                                                                                   
  Qiwi - ZLOGER2077                                                                                                                                   
 
 Мой вк:                                                                                                     
- Vk - @tiktoker_ru                                               
-
--------------
-![lhx0qXZ37mie5Tx9a4MvxXkXPMa0YXLETAtFpDgduuwc_OSJE7QPXx482U62OSF3_UrL2eCFMOe2b4UBSWfk-17i](https://user-images.githubusercontent.com/79506370/195536448-ee17a3b7-d26c-4df9-9999-93572e482eba.jpg)
--------------
-
-Так же просьба ознакомиться если вы будете продавать панель - [Статья 146 Уголовного кодекса РФ.pdf](https://github.com/haker20SZs/Server-control-panel/files/9770118/146.pdf)
-
+ Vk - @tiktoker_ru
