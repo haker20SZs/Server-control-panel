@@ -1,4 +1,4 @@
-BetrimPanel (Beta) - Панель управления игровым сервером Windows Server/Open Server/Linux
+BetrimPanel (Beta) - Панель управления игровым сервером Windows Server/Open Server/Linux                            
 Данная панель управления предназначена для управления сервером - Minecraft PE/BE   
 
 -------------
