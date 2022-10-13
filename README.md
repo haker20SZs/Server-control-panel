@@ -39,6 +39,7 @@ Linux - Фото панели управления,
 -------------
 ![lhx0qXZ37mie5Tx9a4MvxXkXPMa0YXLETAtFpDgduuwc_OSJE7QPXx482U62OSF3_UrL2eCFMOe2b4UBSWfk-17i](https://user-images.githubusercontent.com/79506370/195536448-ee17a3b7-d26c-4df9-9999-93572e482eba.jpg)
 -------------
+Если вы будете продавать данную панель управления
 
 Поддержка автора:                                                                                   
  Qiwi - ZLOGER2077                                                                                                                                   
