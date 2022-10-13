@@ -35,7 +35,7 @@ Linux - Фото панели управления,
 
 Данная панель не позиционирует себя как хостинг                                           
 
-Так же просьба ознакомиться если вы будете продавать панель - [Статья 146 Уголовного кодекса РФ.pdf](https://github.com/haker20SZs/Server-control-panel/files/9770118/146.pdf)
+Просьба ознакомиться если вы будете продавать панель - [Статья 146 Уголовного кодекса РФ.pdf](https://github.com/haker20SZs/Server-control-panel/files/9770118/146.pdf)
 -------------
 ![lhx0qXZ37mie5Tx9a4MvxXkXPMa0YXLETAtFpDgduuwc_OSJE7QPXx482U62OSF3_UrL2eCFMOe2b4UBSWfk-17i](https://user-images.githubusercontent.com/79506370/195536448-ee17a3b7-d26c-4df9-9999-93572e482eba.jpg)
 -------------
