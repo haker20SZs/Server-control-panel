@@ -13,7 +13,7 @@ Windows панель - Предназначена для создания сер
 Windows - Фото панели управления,
 -------------
 
-![image](https://user-images.githubusercontent.com/79506370/195553172-82b34d78-0494-4ba9-ade0-e6272c7291b1.png)
+![image](https://user-images.githubusercontent.com/79506370/196013747-56769cf0-6cbc-4d70-95fc-63990b029ebc.png)
 
 Linux - Фото панели управления,
 -------------
