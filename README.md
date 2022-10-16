@@ -18,7 +18,7 @@ Windows - Фото панели управления,
 Linux - Фото панели управления,
 -------------
 
-![image](https://user-images.githubusercontent.com/79506370/195553105-3724fe25-fbeb-47a2-9ea1-3141912066a8.png)
+![image](https://user-images.githubusercontent.com/79506370/196013707-52452b13-1a57-4fb2-9b2c-24a3ab114b43.png)
 
 -------------
 
