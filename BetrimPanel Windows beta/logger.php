@@ -19,7 +19,7 @@ window.onload = function scroll(){
 
 function mode(){
     $.ajax({
-        url: 'logger.php?key='.$_SESSION['key'],
+        url: 'logger.php' + '?key=<?php echo $_SESSION['key']; ?>',
         success: function(data){
             $('#log').html(data);
             $("#scroll").scrollTop(90000);
@@ -41,7 +41,7 @@ if(file_exists(getcwd(). "/home/srv/{$log_file}")){
     $file = $_SERVER["DOCUMENT_ROOT"]."/home/srv/{$log_file}";
     $get = file($file, FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
 
-    if($_GET['key'] == null || $_SESSION['key'] == null){
+    if($_SESSION['key'] == null){
         echo "Произошла ошибка ключ пользователя не прошёл проверку, пожалуйста, перезайдите в аккаунт или же оборотитесь к создателю скрипта", "\n";
     }elseif($_GET['key'] == $_SESSION['key']){
         foreach($get as  $line_num => $line){
@@ -50,6 +50,9 @@ if(file_exists(getcwd(). "/home/srv/{$log_file}")){
     }else{
         header("Location: /vendor/logout.php");
     }
+
+}else{
+    echo "Извините мы не можем отобразить логи поскольку у вас нет данных в файле {$log_file} или же ваш сервер не отвечает";
 }
 
 ?>
