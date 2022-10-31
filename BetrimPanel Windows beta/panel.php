@@ -39,7 +39,11 @@ if($_GET['exit']){
   header("Location: /vendor/logout.php");
 }
 
-if($_POST['cmd'] || $_GET['start'] || $_GET['stop'] || $_GET['restart'] || $_GET['uninstall'] || $_GET['install'] || $_GET['key'] == $_SESSION['key']){
+if($_GET['key'] == null){
+  header("Location: ?key=" . $_SESSION['key'] ."");
+}
+
+if($_POST['cmd'] || $_GET['start'] || $_GET['stop'] || $_GET['restart'] || $_GET['uninstall'] || $_GET['install'] || $_GET['key']){
 
 if(strtoupper(substr(PHP_OS, 0, 3)) === 'WIN'){
 
