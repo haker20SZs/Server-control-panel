@@ -5,6 +5,17 @@ if(!$_SESSION['user']);
 
 require('config.php');
 
+if($_GET['restart']){
+  $connection = ssh2_connect('Ваш IP от VDS', 22);
+if(ssh2_auth_password($connection, 'Тут ваш Логин от VDS', base64_decode('Тут ваш пароль в base64 от VDS'))){
+  ssh2_exec($connection, "kill -9 $(cat {$server_path}/server.lock)");
+} else {
+  die('Неудачная аутентификация...');
+}
+  sleep(8);
+  header("Location: /panel.php?key={$_SESSION['key']}");
+}
+
 if($_GET['rmlog']){
   exec('sh script/log_remove.sh');
   header("Location: /panel.php?key={$_SESSION['key']}");
@@ -26,7 +37,7 @@ if($_GET['exit']){
   header("Location: /vendor/logout.php");
 }
 
-if($_POST['cmd'] || $_GET['backup'] || $_GET['rmbackup'] || $_GET['rmlog'] || $_GET['key'] == $_SESSION['key']){
+if($_POST['cmd'] || $_GET['restart'] || $_GET['backup'] || $_GET['rmbackup'] || $_GET['rmlog'] || $_GET['key'] == $_SESSION['key']){
 
 if(PHP_OS === 'Linux'){
 
