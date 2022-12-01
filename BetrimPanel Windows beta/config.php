@@ -1,7 +1,7 @@
 <?php
 
  $lang = "ru"; #ru/en#
- $name = "MilordPE"; //Названия сервера
+ $namesrv = "MilordPE"; //Названия сервера
 
  $log_file = "server.log"; #server.log/server.txt#
  $dir = "log"; //Папка с логами игроков

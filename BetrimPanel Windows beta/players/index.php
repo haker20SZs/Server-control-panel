@@ -73,7 +73,7 @@ body{
 
 </style>
 
-<title>Игроки сервера :: <?php echo($name); ?> 😃</title>
+<title>Игроки сервера :: <?php echo($namesrv); ?> 😃</title>
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="./assets/css/styles.css">
@@ -86,7 +86,7 @@ body{
 		  
 			<center>
 					
-			    <h1 data-v-a62d9756="" class="bold black--text project-players__title">Игроки сервера :: <?php echo($name); ?> 😃</h1><br>
+			    <h1 data-v-a62d9756="" class="bold black--text project-players__title">Игроки сервера :: <?php echo($namesrv); ?> 😃</h1><br>
 
 			</center>
             
