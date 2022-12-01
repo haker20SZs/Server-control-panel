@@ -16,8 +16,8 @@
  $passwordpanel = "root";
 
  /*Данные от VDS - SSH*/
- $ip = "";//Айпи от VDS - SSH
- $password = "";//Пароль от VDS - SSH в base64
+ $ip = "localhost";//Айпи от VDS - SSH
+ $password = "root";//Пароль от VDS - SSH в base64
  $port = "22";
  $login = "root";
  /*Данные от VDS*/
