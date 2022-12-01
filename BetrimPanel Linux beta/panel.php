@@ -6,7 +6,7 @@ if(!$_SESSION['user']);
 require('config.php');
 
 if($_GET['restart']){
-  $connection = ssh2_connect($ip, $port);
+  $connection = ssh2_connect("45.142.122.8", 22);
 if(ssh2_auth_password($connection, $login, base64_decode($password))){
   ssh2_exec($connection, "kill -9 $(cat {$server_path}/server.lock)");
 } else {
@@ -35,10 +35,6 @@ if($_GET['backup']){
 
 if($_GET['phpmyadmin']){
   header("Location: {$url_phpmyadmin}");
-}
-
-if($_GET['exit']){
-  header("Location: /vendor/logout.php");
 }
 
 if($_POST['cmd'] || $_GET['restart'] || $_GET['backup'] || $_GET['rmbackup'] || $_GET['rmlog'] || $_GET['key'] == $_SESSION['key'] || $_GET['phpmyadmin']){

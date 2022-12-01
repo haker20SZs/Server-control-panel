@@ -27,9 +27,9 @@
 
     if($password == $passwordpanel && $login == $loginpanel){
         $_SESSION['key'] = password_hash(mt_rand(1,1000), PASSWORD_DEFAULT);
-        header('Location: ../panel.php?key=' . $_SESSION['key'] . '');
+        header('Location: ../panel?key=' . $_SESSION['key'] . '');
     } else {
         $_SESSION['message'] = $text;
-        header('Location: ../index.php');
+        header('Location: ../');
     }
 ?>

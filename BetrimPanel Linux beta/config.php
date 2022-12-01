@@ -4,22 +4,25 @@
 
  $log_file = "server.log"; #server.log/server.txt#
  $server_path = "/home/srv"; #/home/srv# без / в конце
+ $name = "MilordPE"; //Названия сервера
 
- $rconHost = "localhost";
- $rconPort = "Ваш порт от сервера";
- $rconPassword = "Ваш пароль ркон";
+ $rconHost = "localhost"; #IP сервера
+ $rconPort = "19132"; #Порт сервера
+ $rconPassword = "root"; #Пароль от RCON
+ $dir = "log"; #Папка с для логов
+ $golos = "https://mineserv.top/milord-pe?vote"; //Ссылка на голосование за сервер
  
  $loginpanel = "admin";
  $passwordpanel = "root";
 
  /*Данные от VDS - SSH*/
- $ip = "localhost";//Айпи от VDS - SSH
+ $ip = "";//Айпи от VDS - SSH
  $password = "";//Пароль от VDS - SSH в base64
  $port = "22";
  $login = "root";
  /*Данные от VDS*/
 
- $phpmyadmin = true; #Нужен ли вам phpmyadmin - true || false -- если вы ведёте другой ответь phpmyadmin будет отключен
+ $phpmyadmin = false; #Нужен ли вам phpmyadmin - true || false -- если вы ведёте другой ответь phpmyadmin будет отключен
  $url_phpmyadmin = "Ссылка на phpmyadmin"; //Ссылка на phpmyadmin - пример :: http://{IP-Domain}/phpmyadmin/
 
 ?>

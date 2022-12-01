@@ -3,6 +3,7 @@
 session_start();
 require('config.php');
 if($_SESSION['user']);
+unset($_SESSION['user']);
 
 ?>
 
