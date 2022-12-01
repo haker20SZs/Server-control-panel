@@ -4,7 +4,7 @@
 
  $log_file = "server.log"; #server.log/server.txt#
  $server_path = "/home/srv"; #/home/srv# без / в конце
- $name = "MilordPE"; //Названия сервера
+ $namesrv = "MilordPE"; //Названия сервера
 
  $rconHost = "localhost"; #IP сервера
  $rconPort = "19132"; #Порт сервера
