@@ -14,12 +14,14 @@ Windows - Фото панели управления,
 -------------
 
 ![windows_players](https://user-images.githubusercontent.com/79506370/204957126-e37e09b9-4c62-48d9-b11f-1d26230c3e10.png)
+
 ![windows_panel](https://user-images.githubusercontent.com/79506370/204957185-4da7e3a8-1d40-4f09-83cc-2b3a43fccf6d.png)
 
 Linux - Фото панели управления,
 -------------
 
 ![linux_players](https://user-images.githubusercontent.com/79506370/204957223-c953c86a-dc54-4b7a-b4a0-8c86416d94e1.png)
+
 ![linux_panel](https://user-images.githubusercontent.com/79506370/204957229-bccebfd4-3f85-4a92-a340-3df71232d4be.png)
 
 -------------
