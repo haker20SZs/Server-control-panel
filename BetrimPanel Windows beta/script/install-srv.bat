@@ -3,7 +3,6 @@
 IF EXIST "home\srv\" (
     rd home\srv\
     mkdir "srv";
-    taskkill /F /IM cmd.exe
     taskkill /F /IM php.exe
 ) ELSE (
     rd home\srv\
