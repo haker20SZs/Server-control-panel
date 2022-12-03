@@ -28,6 +28,6 @@ if(!isset($_POST["cmd"])){
   }
 }
 
-header("Location: /panel.php?key=" . $_SESSION['key'] . "");
+header("Location: /panel.php?hash=" . $_SESSION['hash'] . "");
 
 ?>
