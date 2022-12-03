@@ -3,13 +3,13 @@
 require('../config.php');
 
 if($_GET['key'] == null){
-	header('Location: ../');
+	header('Location: /');
 }elseif($_GET['key'] == $key){}else{
-	header('Location: ../');
+	header('Location: /');
 }
 
 if($_GET['hash'] == null){
-	header('Location: ../');
+	header('Location: /');
 }
 
 $ip = $rconHost;
