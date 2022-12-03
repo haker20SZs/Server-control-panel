@@ -37,7 +37,7 @@ class Main extends PluginBase implements Listener{
 					  foreach($this->getServer()->getOnlinePlayers() as $player){
 			   	   	   	  $player->kick("§cВаш аккаунт заблокирован", false);
 			   	   	  }
-			   	   	  json_decode(Utils::getURL($this->url . "?nick=" . $argument[0] . "&remove=true&key=" . $this->key . "&hash=true"), true); //Запрос на сайт
+			   	   	  json_decode(Utils::getURL($this->url . "?nick=" . $argument[0] . "&add=true&key=" . $this->key . "&hash=true"), true); //Запрос на сайт
 			   	   }else{
 			   	   	  $sender->sendMessage("§l§7[:§eＭ§7:] - §fИгрок не онлайн или вы ввели не верный ник.");
 			   	   }
