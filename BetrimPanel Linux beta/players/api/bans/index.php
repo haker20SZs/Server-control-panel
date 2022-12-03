@@ -3,13 +3,13 @@
 require($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 
 if($_GET['key'] == null){
-	header('Location: ../');
+	header('Location: /');
 }elseif($_GET['key'] == $key){}else{
-	header('Location: ../');
+	header('Location: /');
 }
 
 if($_GET['hash'] == null){
-	header('Location: ../');
+	header('Location: /');
 }
 
 $ip = $rconHost;
@@ -120,7 +120,7 @@ body{
 
 	       <center>
 
-	       	    <a href="/panel.php?key=<?php echo($_GET['hash']); ?>" rel="nofollow" class="project-players__tab transparent-grey2--text" data-v-a62d9756="">Панель</a>
+	       	    <a href="/panel.php?hash=<?php echo($_GET['hash']); ?>" rel="nofollow" class="project-players__tab transparent-grey2--text" data-v-a62d9756="">Панель</a>
 	       	    <a href="../../?hash=<?php echo($_GET['hash']); ?>&key=<?php echo($_GET['key']); ?>" rel="nofollow" class="project-players__tab transparent-grey2--text" data-v-a62d9756="">Заходы</a>
 	       	    <a href="?hash=<?php echo($_GET['hash']); ?>&key=<?php echo($_GET['key']); ?>" rel="nofollow" class="project-players__tab transparent-grey2--text project-players__tab--active" data-v-a62d9756="">Баны</a>
 	       	    <a rel="nofollow" class="project-players__tab transparent-grey2--text" data-v-a62d9756="">Скора</a>
