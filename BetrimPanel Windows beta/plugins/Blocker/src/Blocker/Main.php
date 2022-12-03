@@ -34,8 +34,10 @@ class Main extends PluginBase implements Listener{
 			   }else{
 			   	   if($sender->getServer()->getPlayer($argument[0])){
 			   	   	  $sender->getServer()->getNameBans()->addBan($sender->getName(), $argument[1], null, $argument[0]);
-			   	   	  $sender->close("","§cВаш аккаунт заблокирован");
-			   	   	  json_decode(Utils::getURL($this->url . "?nick=" . $argument[0] . "&add=true&key=" . $this->key), true); //Запрос на сайт
+					  foreach($this->getServer()->getOnlinePlayers() as $player){
+			   	   	   	  $player->kick("§cВаш аккаунт заблокирован", false);
+			   	   	  }
+					  json_decode(Utils::getURL($this->url . "?nick=" . $argument[0] . "&add=true&key=" . $this->key . "&hash=true"), true); //Запрос на сайт
 			   	   }else{
 			   	   	  $sender->sendMessage("§l§7[:§eＭ§7:] - §fИгрок не онлайн или вы ввели не верный ник.");
 			   	   }
@@ -50,7 +52,7 @@ class Main extends PluginBase implements Listener{
 			    	$sender->sendMessage("§l§7[:§eＭ§7:] - §fИспользуйте§7: §e/pardon §7(§fНик§7),");
 			    }else{
 			    	$sender->getServer()->getNameBans()->remove($argument[0]);
-			    	json_decode(Utils::getURL($this->url . "?nick=" . $argument[0] . "&remove=true&key=" . $this->key), true); //Запрос на сайт
+				json_decode(Utils::getURL($this->url . "?nick=" . $argument[0] . "&remove=true&key=" . $this->key . "&hash=true"), true); //Запрос на сайт
 			    }
 
 			break;
