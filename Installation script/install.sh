@@ -1,0 +1,1 @@
+apt update && apt upgrade && apt install php && apt install php-ssh2 && apt install apache2 && echo "Successful installation.." && sleep 10 && reboot
