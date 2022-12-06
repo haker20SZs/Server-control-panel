@@ -66,7 +66,7 @@ b{
 								<a class='btn btn-sm btn-icon btn-bg-light btn-icon-primary btn-hover-primary' href="players/?hash=<?php echo($_GET['hash']); ?>&key=<?php echo($key); ?>">
 										<i class="fa fa-address-card" aria-hidden="true"></i>
 								</a>
-								<a class='btn btn-sm btn-icon btn-bg-light btn-icon-primary btn-hover-primary' id="Exit">
+								<a class='btn btn-sm btn-icon btn-bg-light btn-icon-primary btn-hover-primary' href="/vendor/logout.php">
 										<i class="fa fa-times-circle" aria-hidden="true"></i>
 								</a>
 								</div>
@@ -180,9 +180,6 @@ b{
   };
   document.getElementById("phpmyadmin").onclick = function(){
       location.href = "?phpmyadmin=true";
-  };
-  document.getElementById("Exit").onclick = function(){
-      location.href = "?exit=true";
   };
 </script>
 </body>

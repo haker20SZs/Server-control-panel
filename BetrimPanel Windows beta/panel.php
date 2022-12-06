@@ -35,10 +35,6 @@ if($_GET['install']){
   header("Location: /panel.php?hash={$_SESSION['hash']}");
 }
 
-if($_GET['exit']){
-  header("Location: /vendor/logout.php");
-}
-
 if($_GET['hash'] == null){
   header("Location: ?hash=" . $_SESSION['hash'] ."");
 }
