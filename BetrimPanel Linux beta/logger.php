@@ -54,7 +54,8 @@ if($_SESSION['hash'] == null){
 	stream_set_blocking($result, true);
 	$logs = ssh2_fetch_stream($result, SSH2_STREAM_STDIO);
 	$log = stream_get_contents($logs);
-    echo $log, "\n";
+        
+	echo $log, "\n";
     
 }else{
     header("Location: /vendor/logout.php");
