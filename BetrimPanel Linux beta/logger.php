@@ -28,7 +28,7 @@ function mode(){
     });
 };
 
-setInterval(mode, 10000);
+setInterval(mode, 90000);
 
 </script>
 
@@ -37,23 +37,27 @@ setInterval(mode, 10000);
 
 <?php
 
-if(file_exists("{$server_path}/{$log_file}")){
-    $get = array();
-    $file = "{$server_path}/{$log_file}";
-    $get = file($file, FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
+if($_SESSION['hash'] == null){
+	echo "Произошла ошибка ключ пользователя не прошёл проверку, пожалуйста, перезайдите в аккаунт или же оборотитесь к создателю скрипта", "\n";
+}elseif($_GET['hash'] == $_SESSION['hash']){
 
-    if($_SESSION['hash'] == null){
-        echo "Произошла ошибка ключ пользователя не прошёл проверку, пожалуйста, перезайдите в аккаунт или же оборотитесь к создателю скрипта", "\n";
-    }elseif($_GET['hash'] == $_SESSION['hash']){
-        foreach($get as  $line_num => $line){
-            echo $line, "\n";
-        }
-    }else{
-        header("Location: /vendor/logout.php");
-    }
+	$connection = ssh2_connect($ip, $port);
+	ssh2_auth_password($connection, $login, base64_decode($password));
+	$logs = ssh2_exec($connection, "tail -n 500 " . $server_path . "/" . $log_file . " | iconv -t utf8");
 
+	if(file_exists("{$server_path}/{$log_file}")){
+		$result = $logs;
+	}else{
+		echo("Извините мы не можем отобразить логи поскольку у вас нет данных в файле {$log_file} или же ваш сервер не отвечает");
+	}
+
+	stream_set_blocking($result, true);
+	$logs = ssh2_fetch_stream($result, SSH2_STREAM_STDIO);
+	$log = stream_get_contents($logs);
+    echo $log, "\n";
+    
 }else{
-    echo "Извините мы не можем отобразить логи поскольку у вас нет данных в файле {$log_file} или же ваш сервер не отвечает";
+    header("Location: /vendor/logout.php");
 }
 
 ?>
