@@ -1,1 +1,0 @@
-rm /home/srv/server.log
